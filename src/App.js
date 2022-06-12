@@ -1,23 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import DropDown from "./components/DropDown";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>hive drop down project</h1>
+      <div className="example-div">
+        <div className="example-div-item">
+          <DropDown
+            multiSelect={true}
+            description={"animals multi select & scrollable"}
+            listItems={[
+              "dog",
+              "cat",
+              "mouse",
+              "cow",
+              "goat",
+              "chicken",
+              "whale",
+              "bear",
+              "horse",
+              "fish",
+              "donkey",
+            ]}
+          />
+        </div>
+        <div className="example-div-item">
+          <DropDown
+            multiSelect={false}
+            description={"animals default"}
+            listItems={["dog", "cat", "mouse", "cow"]}
+          />
+        </div>
+      </div>
     </div>
   );
 }
