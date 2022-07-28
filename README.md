@@ -40,11 +40,5 @@ The component takes the following props.
 ## DropDown.js Component
 ### Functionality
 #### Resizeable, Reusable, and Dynamic dropdown component for displaying and choosing items from a list, supporting functionality of single or multi-item selection.
-### Props
-1. multiSelect: type boolean
-    - True if support multiSelect, False otherise
-2. description: type string
-    - Title of Dropdown Component
-3. listItems: type list
-    - List Items in DropDown
+
 
