@@ -9,7 +9,7 @@
 1. Git
 2. Node
 3. React
-4. A clone of the [hive project](https://github.com/modysleiman/dropdown) repo on your local machine
+4. A clone of the [react-dropdown-bar](https://github.com/modysleiman/react-dropdown-bar) repo on your local machine
 
 ### Installations
 
