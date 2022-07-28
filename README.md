@@ -12,6 +12,18 @@ The component takes the following props.
 | `description`  | string  | Dropdown component name tag |
 | `listItems`  | array  | List of items for display in menu |
 
+
+## Usage
+
+```javascript
+
+<DropDown
+  multiSelect=true
+  description="This is the menu description"
+  listItems=["item1", "item2", "item3", "item4"]
+/>
+```
+
 ## Getting Started
 
 ### Prerequisites
