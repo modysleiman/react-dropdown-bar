@@ -2,6 +2,16 @@
 # Hive Interview Project
 #### This repo consists of a Drop Down Menu Component for the Hive Interview Project.
 
+## Props
+
+The component takes the following props.
+
+| Prop              | Type       | Description |
+|-------------------|------------|-------------|
+| `multiSelect`         | boolean  | Enabling multi-select menu options |
+| `description`  | string  | Dropdown component name tag |
+| `listItems`  | array  | List of items for display in menu |
+
 ## Getting Started
 
 ### Prerequisites
