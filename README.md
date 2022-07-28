@@ -1,6 +1,7 @@
 
-# Hive Interview Project
-#### This repo consists of a Drop Down Menu Component for the Hive Interview Project.
+## DropDown.js Component
+### Functionality
+#### Resizeable, Reusable, and Dynamic dropdown component for displaying and choosing items from a list, supporting functionality of single or multi-item selection.
 
 ## Props
 
@@ -45,12 +46,15 @@ The component takes the following props.
 
 
 
+# Hive Interview Project
+#### This repo consists of a Drop Down Menu Component for the Hive Interview Project.
+
 ### Project Description
 #### Using React or vanilla (plain) Javascript, build a reusable dropdown menu component. Please do not use a pre-built dropdown from a component library. We expect you to build this from scratch.
 
 
-## DropDown.js Component
-### Functionality
-#### Resizeable, Reusable, and Dynamic dropdown component for displaying and choosing items from a list, supporting functionality of single or multi-item selection.
+## License
+
+MIT Licensed. Copyright (c) Mohammad Sleiman 2022.
 
 
